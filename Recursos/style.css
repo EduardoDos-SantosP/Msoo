@@ -1,0 +1,42 @@
+* {
+    color: var(--bs-light);
+    /*Define todos os elementos com fonte da cor Ligth do Bootstrap*/
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+a:hover {
+    color: currentColor;
+}
+h1 {
+    font-family: "Nirmala UI";
+    font-size: 28pt;
+}
+
+.text-teal {
+    color: var(--bs-teal);
+}
+.bg-teal {
+    background-color: var(--bs-teal);
+}
+
+.hover-teal {
+    transition: 0.5s;
+}
+.hover-teal:hover {
+    background-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.hover-success {
+    transition: 0.5s;
+}
+.hover-success:hover {
+    background-color: var(--bs-success);
+    transition: 0.5s;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
