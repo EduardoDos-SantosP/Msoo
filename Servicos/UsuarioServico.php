@@ -3,13 +3,13 @@
 class UsuarioServico {
     public function getUsuarioLogado(): Usuario|null
     {
-        return new Usuario();
+        return Usuario::new('Camareira');
     }
 
     public function buscarUsuario(string $email, string $senha): Usuario
     {
         //Buscar usuario do Banco...
-        return new Usuario();
+        return Usuario::new('Camareira');
     }
 
     public function logarUsuario(string $email, string $senha): Usuario {
