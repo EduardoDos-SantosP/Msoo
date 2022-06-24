@@ -24,12 +24,11 @@ class UsuarioServico {
     }
 
     public function menuDoUsuario(Usuario $usuario): array {
-        $tipoUsuario = ucfirst($usuario->tipo);//Obtém o tipo do usuário, mas com a primeira letra maiúscula
 
         $pastaMenus = RAIZ_PROJETO . '/Telas/Componentes/Menu';
 
         $itensMenu = [];
-        foreach (['Usuario', $tipoUsuario] as $item) {
+        foreach (['Usuario', get_class($usuario)] as $item) {
             include "$pastaMenus/ItensMenu$item.php";
             $itensMenu = array_merge($itensMenu, $itensMenuLocal);
         }
