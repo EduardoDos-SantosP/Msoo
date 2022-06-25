@@ -4,8 +4,9 @@ const RAIZ_PROJETO = 'C:/xampp/htdocs/MSOO';
 $title = 'Bem vindo(a)!';
 
 include_once RAIZ_PROJETO . '/Telas/PrefixoPagina.php';
-
 ?>
+
+
 <div class="container pt-5">
     <div class="container mt-5 p-4 bg-gradient border border-secondary">
         <?php
@@ -33,7 +34,4 @@ include_once RAIZ_PROJETO . '/Telas/PrefixoPagina.php';
 
         echo 'Usuário logado com sucesso!';
     }
-    ?>
-
-<?php
 include_once RAIZ_PROJETO . '/Telas/SufixoPagina.php';
