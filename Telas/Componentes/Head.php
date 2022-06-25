@@ -1,6 +1,5 @@
 <?php
-const URL_PROJETO = 'http://localhost/MSOO';
-const RAIZ_PROJETO = 'C:/xampp/htdocs/MSOO';
+
 //Declara as contantes com os caminhos local e via host do projeto
 
 include_once RAIZ_PROJETO . '/classes.php';
